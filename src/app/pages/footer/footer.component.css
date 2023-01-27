@@ -1,0 +1,24 @@
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+#footer {
+    color: #f4f6fd;
+    font-size: 14px;
+    position: absolute;
+    padding-bottom: 30px;
+    bottom: 0;
+    width: auto;
+  }
+  
+  #footer .copyright {
+    text-align: center;
+  }
+  
+  @media (max-width: 1199px) {
+    #footer {
+      position: static;
+      width: auto;
+      padding-right: 20px 15px;
+    }
+  }
+  
